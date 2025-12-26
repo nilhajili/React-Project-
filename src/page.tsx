@@ -243,9 +243,11 @@ export default function BlogsPage() {
               title={blog.title}
               category={blog.category}
               image={blog.image}
-                  email={blog.email}
+              email={blog.email}
+              author={blog.author}
+              user={blog.user}
               createdAt={blog.createdAt}
-                  darkMode={darkMode}
+              darkMode={darkMode}
             />
           ))}
         </div>

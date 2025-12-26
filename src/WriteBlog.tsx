@@ -122,8 +122,7 @@ export default function WriteBlog() {
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${darkMode ? "bg-[#181A2A]" : "bg-[#F6F6F7]"}`}>
-      {/* Header */}
-      <header className={`sticky top-0 z-50 border-b transition-colors duration-300 ${
+<header className={`sticky top-0 z-50 border-b transition-colors duration-300 ${
         darkMode ? "bg-[#181A2A] border-[#242535]" : "bg-white border-gray-100"
       }`}>
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -199,8 +198,7 @@ export default function WriteBlog() {
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="max-w-2xl mx-auto px-6 py-16">
+<main className="max-w-2xl mx-auto px-6 py-16">
         <h1 className={`text-4xl font-bold font-work text-center mb-12 ${darkMode ? "text-white" : "text-gray-900"}`}>
           Write a new blog
         </h1>
@@ -212,8 +210,7 @@ export default function WriteBlog() {
             </div>
           )}
 
-          {/* Title */}
-          <input
+<input
             type="text"
             placeholder="Add title for blog"
             value={title}
@@ -226,8 +223,7 @@ export default function WriteBlog() {
             }`}
           />
 
-          {/* Category Dropdown */}
-          <div className="relative">
+<div className="relative">
             <select
               value={category}
               onChange={(e) => setCategory(e.target.value)}
@@ -253,8 +249,7 @@ export default function WriteBlog() {
             </svg>
           </div>
 
-          {/* Image URL */}
-          <input
+<input
             type="text"
             placeholder="Add thumbnail image"
             value={image}
@@ -267,8 +262,7 @@ export default function WriteBlog() {
             }`}
           />
 
-          {/* Description/Body */}
-          <textarea
+<textarea
             placeholder="Add blog body"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
@@ -281,8 +275,7 @@ export default function WriteBlog() {
             }`}
           />
 
-          {/* Submit Button */}
-          <button
+<button
             type="submit"
             disabled={loading}
             className="w-full py-4 bg-[#FFD050] text-gray-900 font-bold font-work rounded-lg hover:bg-[#f0c040] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
@@ -299,8 +292,7 @@ export default function WriteBlog() {
         </form>
       </main>
 
-      {/* Footer */}
-      <footer className={`font-work transition-colors duration-300 ${darkMode ? "bg-[#141624]" : "bg-white"}`}>
+<footer className={`font-work transition-colors duration-300 ${darkMode ? "bg-[#141624]" : "bg-white"}`}>
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>

@@ -214,8 +214,7 @@ export default function MyBlogs() {
         </div>
       </header>
 
-      {/* User Name Banner */}
-      <div className={`py-8 ${darkMode ? "bg-[#242535]" : "bg-gray-100"}`}>
+<div className={`py-8 ${darkMode ? "bg-[#242535]" : "bg-gray-100"}`}>
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className={`text-2xl font-semibold font-work ${darkMode ? "text-white" : "text-gray-900"}`}>
             {getUserDisplayName()}
@@ -223,8 +222,7 @@ export default function MyBlogs() {
         </div>
       </div>
 
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-6 py-10">
+<main className="max-w-7xl mx-auto px-6 py-10">
         <h2 className={`text-2xl font-bold font-work mb-8 ${darkMode ? "text-white" : "text-gray-900"}`}>
           Latest Post
         </h2>
@@ -295,8 +293,7 @@ export default function MyBlogs() {
         )}
       </main>
 
-      {/* Footer */}
-      <footer className={`font-work transition-colors duration-300 ${darkMode ? "bg-[#141624]" : "bg-[#F6F6F7]"}`}>
+<footer className={`font-work transition-colors duration-300 ${darkMode ? "bg-[#141624]" : "bg-[#F6F6F7]"}`}>
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
